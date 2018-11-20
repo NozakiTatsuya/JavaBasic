@@ -29,6 +29,15 @@ public class PTra05_02 {
 		 *
 		 *  ※##は変数inputの中身
 		 */
+		int input = Integer.parseInt(line);
+		if ( input %2 ==0) {
+			System.out.println(input+"は偶数です");
+		}
+		else if( input %2 !=0) {
+			System.out.println(input + "は奇数です");
+		}
+
+
 
 	}
 }
