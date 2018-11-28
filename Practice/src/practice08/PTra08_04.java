@@ -29,3 +29,7 @@ public class PTra08_04 {
 	}
 
 }
+
+//戻り値がない時は戻り値の型をvoidに変更して戻り値がないって事はも取らないのでretunも要らない。
+//１５も戻らないので＝で繋がないでconvertMessage(message);と呼び出して和えるだけ
+//（Hello, world!）送るだけ。
