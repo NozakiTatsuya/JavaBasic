@@ -32,9 +32,25 @@ public class PTra13_04 {
 		 */
 
 
+		while(true) {
+
+			if(slime.damage(hero.attack())) {
+				System.out.println("ヒーローはスライムとの戦闘に勝利した");
+				break;
+			}
+			if(hero.damage(slime.attack())) {
+				System.out.println("スライムはヒーローとの戦闘に勝利した");
+				break;
+			}
+
+
+
+		}
+
 
 
 		// ★ 勝利した方の出力を行ってください。「○○は■■との戦闘に勝利した」
+
 
 	}
 }
