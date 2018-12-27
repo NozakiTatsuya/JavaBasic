@@ -2,7 +2,7 @@ package practice14.common;
 
 
 
-public DBCourse class Course {
+public class DBCourse implements Course {
 
 	public String getCourseName() {
 		return "「【Eラーニング】DB基礎」";
