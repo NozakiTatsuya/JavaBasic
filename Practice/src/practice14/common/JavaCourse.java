@@ -11,7 +11,7 @@ public class JavaCourse implements Course {
 		return getCourseUnit;
 		}
 	}
-	
+
 
 
 
@@ -29,4 +29,3 @@ public class JavaCourse implements Course {
 	 * 		継承
 	 * 		高度な継承
 	 */
-}
